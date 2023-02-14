@@ -11,6 +11,6 @@
 
 <form [formGroup]="checkoutForm">
 
-<button class="button" type="submit">Purchase</button>
+<button class="button" type="submit" (ngSubmit)="onSubmit()">Purchase</button>
 
 </form>
